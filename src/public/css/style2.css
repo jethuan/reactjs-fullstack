@@ -1,0 +1,94 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header {
+  height: 865px;
+  background: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #56727c;
+}
+.header .about-signin .active,
+.header .about-signin .sign-in {
+  float: right;
+  text-decoration: none;
+  margin: 20px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 16px;
+  margin-top: 40px;
+}
+.header .about-signin .sign-in {
+  margin-right: 79px;
+  padding: 8px 20px;
+  border-radius: 60px;
+  border: 2px solid #19e07d;
+  color: #27c074;
+}
+.header .logo {
+  background: url("./img/hapoERP.png") center center no-repeat;
+  margin-top: 168px;
+  height: 80px;
+}
+.header .text {
+  margin-bottom: 30px;
+}
+.header .text p {
+  text-align: center;
+  color: #283238;
+  font-family: Roboto;
+  font-style: italic;
+  letter-spacing: -0.02px;
+  font-size: 20px;
+}
+.header .btn-start-now {
+  text-align: center;
+}
+.header .btn-start-now button {
+  box-shadow: 0 2px 4px 0 rgba(17, 16, 16, 0.5);
+  font-family: Roboto;
+  color: #ffffff;
+  letter-spacing: 1.33px;
+  line-height: 21px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 40px;
+  width: 144px;
+  border-radius: 100px;
+  background: linear-gradient(311.12deg, #b4ec51 0%, #429321 100%);
+}
+.header .icon-content {
+  margin-top: 56px;
+}
+.header .icon-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.header .icon-content ul li {
+  margin: 5px;
+  text-align: center;
+  list-style-type: none;
+  max-width: 33%;
+  margin-left: 1.5rem !important;
+}
+.header .icon-content ul li img {
+  width: 80px;
+  height: 48px;
+}
+.header .icon-content ul li h3 {
+  height: 48px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -0.07px;
+  line-height: 48px;
+}
